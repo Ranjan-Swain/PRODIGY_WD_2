@@ -3,9 +3,9 @@
 <p>This is task 2 of my Web Development internship at Prodigy InfoTech. In this task I have to develop a Stopwatch web application.</p>
 <hr>
 <h2>Samples</h2>
-<img src="">
-<img src="">
-<img src="">
+<img src="Sample-1">
+<img src="Sample-2">
+<img src="Sample-3">
 <h2>Technologies Used</h2>
 <ul>
   <li>HTML</li>
