@@ -1,0 +1,119 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.main{
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height:15rem;
+    width:30rem;
+    border:2px solid white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+}
+
+.display-timer{
+    height:5rem;
+    width:25rem;
+    border-radius: 1rem;
+    margin:2rem 0;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size:2.7rem;
+    color:white;
+    background-color: #232323;
+    box-shadow:5px 5px 20px rgba(0, 0, 0, 1);
+}
+
+.options{
+    display:flex;
+    width:100%;
+    margin:1rem 0 1rem 0;
+}
+
+.options button{
+    height:2.85rem;
+    width:8rem;
+    font-size:1rem;
+    border-radius:0.5rem;
+}
+
+#on{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+#on #start{
+    border:2px solid green;
+    color:green;
+    background-color: transparent;
+}
+
+#on #reset{
+    border:2px solid white;
+    color:white;
+    background-color: transparent;
+}
+
+#off{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    display:none;
+}
+
+#off #stop{
+    border:2px solid red;
+    color:red;
+    background-color: transparent;
+}
+
+#off #lap{
+    border:2px solid white;
+    color:white;
+    background-color: transparent;
+}
+
+.lap-container{
+    height:15rem;
+    width:30rem;
+    margin-top:1rem;
+    border-radius: 1rem;
+    color:white;
+    overflow: auto;
+    font-size:1.5rem;
+}
+
+.lap-list{
+    width:25rem;
+    list-style: none;
+    margin-left:2.5rem;
+}
+
+.lap-list li{
+    display:flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    border:1px solid white;
+    border-radius: 0.5rem;
+    padding:0.5rem 0;
+}
